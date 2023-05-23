@@ -2,134 +2,150 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mitre.github.io/fhir-for-research/about.html</loc>
-    <lastmod>2023-04-27T00:56:16.864Z</lastmod>
+    <lastmod>2023-05-23T12:21:06.003Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/contribute.html</loc>
-    <lastmod>2023-04-27T00:56:17.306Z</lastmod>
+    <lastmod>2023-05-23T12:21:06.361Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/fhir-versions.html</loc>
-    <lastmod>2023-04-27T00:56:17.730Z</lastmod>
+    <lastmod>2023-05-23T12:21:06.780Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/index.html</loc>
-    <lastmod>2023-04-27T00:56:18.073Z</lastmod>
+    <lastmod>2023-05-23T12:21:07.379Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/cdms.html</loc>
-    <lastmod>2023-04-27T00:56:19.307Z</lastmod>
+    <lastmod>2023-05-23T12:21:08.738Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/data-modeling-reading-igs.html</loc>
-    <lastmod>2023-04-27T00:56:19.812Z</lastmod>
+    <lastmod>2023-05-23T12:21:09.231Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/data-modeling-real-world-igs.html</loc>
-    <lastmod>2023-04-27T00:56:20.268Z</lastmod>
+    <lastmod>2023-05-23T12:21:09.812Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/data-modeling-writing-igs.html</loc>
-    <lastmod>2023-04-27T00:56:20.736Z</lastmod>
+    <lastmod>2023-05-23T12:21:10.351Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/fhir-accessing-data.html</loc>
-    <lastmod>2023-04-27T00:56:21.425Z</lastmod>
+    <lastmod>2023-05-23T12:21:11.076Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/fhir-community.html</loc>
-    <lastmod>2023-04-27T00:56:22.025Z</lastmod>
+    <lastmod>2023-05-23T12:21:11.996Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/fhir-from-1000-ft.html</loc>
-    <lastmod>2023-04-27T00:56:22.851Z</lastmod>
+    <lastmod>2023-05-23T12:21:12.967Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/fhir-from-10000-ft.html</loc>
-    <lastmod>2023-04-27T00:56:23.444Z</lastmod>
+    <lastmod>2023-05-23T12:21:13.545Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/fhir-history.html</loc>
-    <lastmod>2023-04-27T00:56:24.076Z</lastmod>
+    <lastmod>2023-05-23T12:21:14.219Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/fhir-research.html</loc>
-    <lastmod>2023-04-27T00:56:24.744Z</lastmod>
+    <lastmod>2023-05-23T12:21:14.909Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/key-fhir-resources.html</loc>
-    <lastmod>2023-04-27T00:56:25.870Z</lastmod>
+    <lastmod>2023-05-23T12:21:16.246Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/redcap-fhir.html</loc>
-    <lastmod>2023-04-27T00:56:26.465Z</lastmod>
+    <lastmod>2023-05-23T12:21:16.890Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/redcap-intro.html</loc>
-    <lastmod>2023-04-27T00:56:27.051Z</lastmod>
+    <lastmod>2023-05-23T12:21:17.457Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/smart-on-fhir-intro.html</loc>
-    <lastmod>2023-04-27T00:56:27.733Z</lastmod>
+    <lastmod>2023-05-23T12:21:18.415Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/smart-on-fhir-tech.html</loc>
-    <lastmod>2023-04-27T00:56:28.437Z</lastmod>
+    <lastmod>2023-05-23T12:21:19.324Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/synthea-customizing.html</loc>
-    <lastmod>2023-04-27T00:56:29.591Z</lastmod>
+    <lastmod>2023-05-23T12:21:20.773Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/synthea-overview.html</loc>
-    <lastmod>2023-04-27T00:56:30.243Z</lastmod>
+    <lastmod>2023-05-23T12:21:21.496Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitre.github.io/fhir-for-research/modules/synthea-running.html</loc>
+    <lastmod>2023-05-23T12:21:22.261Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/synthea-test-server.html</loc>
-    <lastmod>2023-04-27T00:56:31.166Z</lastmod>
+    <lastmod>2023-05-23T12:21:23.237Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/tabular-intro.html</loc>
-    <lastmod>2023-04-27T00:56:31.603Z</lastmod>
+    <lastmod>2023-05-23T12:21:23.688Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/tabular-python.html</loc>
-    <lastmod>2023-04-27T00:56:34.610Z</lastmod>
+    <lastmod>2023-05-23T12:21:27.360Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/tabular-r.html</loc>
-    <lastmod>2023-04-27T00:56:36.236Z</lastmod>
+    <lastmod>2023-05-23T12:21:29.043Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/modules/terminology.html</loc>
-    <lastmod>2023-04-27T00:56:37.349Z</lastmod>
+    <lastmod>2023-05-23T12:21:30.322Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/roles.html</loc>
-    <lastmod>2023-04-27T00:56:38.122Z</lastmod>
+    <lastmod>2023-05-23T12:21:31.225Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/sections/advanced-topics.html</loc>
-    <lastmod>2023-04-27T00:56:38.464Z</lastmod>
+    <lastmod>2023-05-23T12:21:31.579Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/sections/overview.html</loc>
-    <lastmod>2023-04-27T00:56:38.824Z</lastmod>
+    <lastmod>2023-05-23T12:21:31.999Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/sections/working-with-data.html</loc>
-    <lastmod>2023-04-27T00:56:39.159Z</lastmod>
+    <lastmod>2023-05-23T12:21:32.348Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/style-guide.html</loc>
-    <lastmod>2023-04-27T00:56:40.033Z</lastmod>
+    <lastmod>2023-05-23T12:21:33.285Z</lastmod>
   </url>
   <url>
     <loc>https://mitre.github.io/fhir-for-research/test.html</loc>
-    <lastmod>2023-04-27T00:56:40.418Z</lastmod>
+    <lastmod>2023-05-23T12:21:33.675Z</lastmod>
   </url>
   <url>
-    <loc>https://mitre.github.io/fhir-for-research/units/01-fhir-intro.html</loc>
-    <lastmod>2023-04-27T00:56:40.737Z</lastmod>
+    <loc>https://mitre.github.io/fhir-for-research/webinar-refs.html</loc>
+    <lastmod>2023-05-23T12:21:34.037Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitre.github.io/fhir-for-research/workshops/fhir-bulk-data/index.html</loc>
+    <lastmod>2023-05-23T12:21:34.354Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitre.github.io/fhir-for-research/workshops/fhir-bulk-data/slides.html</loc>
+    <lastmod>2023-05-23T12:21:34.861Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mitre.github.io/fhir-for-research/workshops/fhir-bulk-data/notebook.html</loc>
+    <lastmod>2023-05-23T12:22:02.616Z</lastmod>
   </url>
 </urlset>
