@@ -1,0 +1,64 @@
+---
+title: "Anatomy"
+format: html
+---
+
+
+Understanding the anatomy of the eye helps to illustrate the interoperability challenges and imaging modalities used in ophthalmology. The American Academy of Ophthalmology (AAO) has an excellent review of eye anatomy: https://www.aao.org/eye-health/anatomy/parts-of-eye. This module summarizes the AAO content and ties the anatomy to the [imaging module](OCT.qmd).
+
+
+# Exterior of the Eyeball
+<!--# image fro the AAO page on anatomy. Add separate citation? -->
+
+![The eye sits in the orbit and movement is controlled by six muscules.](images/eye-muscles.png "Exterior of the eye"){fig-align="center" fig-alt="An eyeball sitting in the orbital socket, controlled by six muscles attached to the sclera."}
+
+- **Orbit**: bony socket that holds the eyeball in place
+- **Extraocular muscles**: there are six muscles that are attached around the eyeball and control movement of the eye
+- **Sclera**: layer of tissue that covers most of the eye and where the extraocular muscles attach to the eyeball
+
+# Surface of the Eye
+<!--# consider cutting Surface of the eye section because I don't think this content has appeard in the imaging? -->
+
+<!--# image fro the AAO page on anatomy. Add separate citation? -->
+![Tears on the surface of the eye act as lubricant.](images/surface-of-the-eye.png "Surface of the eye"){fig-align="center" fig-alt="The tear layer on the front of the eye consists of three sub layers: oil, watery, and mucous."}
+
+- **Tears**: lubricate the eye and are comprised of three layers called the tear film (from outermost to innermost):
+    - Oil layer, produced by the meibomian gland
+    - Watery layer, produced by the lacrimal gland
+    - Mucous layer
+
+# Front of the Eye
+
+<!--# image fro the AAO page on anatomy. Add separate citation? -->
+<!--# Is there another view that labels the pupil and lens as well? -->
+
+![The lens and the pupil each play a role in controlling the amount of light that reaches the back of the eye.](images/front-of-eye.jpeg "Front of the eye"){fig-align="center" fig-alt="A top-down view of an eyeball showing the layers of the dome-shaped cornea, iris, pupil, and lens."}
+
+- **Cornea**: clear, dome-shaped front of the eye where light is focused into the eye
+- **Iris**: the colorful part of the eye, surrounding the pupil.
+- **Pupil**: dark hole in the iris. Muscles in the iris dilate and constrict the pupil, which changes the amount of light let into the eye
+- **Lens**: focuses light toward the back of the eye. The lens is right behind the pupil.
+
+### Common conditions affecting the front of the eye
+- Corneal disorders are common conditions affecting the cornea. They can be congenital (present at birth) or developed later in life. (https://my.clevelandclinic.org/health/body/21823-eyes)
+
+# Back of the Eye
+
+<!--# Does outer eye and inner eye make more sense than front and back of eye? -->
+
+- **Vitreous cavity**: the space between the lens and the back of the eye
+- **Retina**: the light senstivie tissue that lines the back back of the eye. 
+    - **Macula**: tiny area of the retina that gives detailed vision
+    - **Peripheral retina**: the other part of the retina that gives peripheral, or side vision
+- **Optic nerve**: millions of nerve fibers that transmit light from the retina to the brain as electrical impulses
+
+### Common conditions affecting the back of the eye
+- Retinal disorders are common conditions affecting the retina. Some retinal disorders are secondary effects from another disease ((https://my.clevelandclinic.org/health/body/21823-eyes)), like diabetic retinopathy which is a complication of diabetes and the leading cuase of blindness in American adults (https://www.cdc.gov/visionhealth/basics/ced/index.html#diabetic_retinopathy).
+- Age-related macular degeneration is a disorder that affects the macula and is more likely to occur in older adults. https://my.clevelandclinic.org/health/body/21823-eyes
+
+
+# Additional resources for ocular anatomy:
+- Compilation of images and diagrams related to different ocular conditions and injuries: https://kellogg.umich.edu/theeyeshaveit/index.html
+    - Note that the site's certificate has expired so you may be warned about proceeding to the site
+- Another diagram of the eye with descriptions of the anatomy: https://www.umkelloggeye.org/conditions-treatments/anatomy-eye 
+- Overview of common ocular conditions and diseases, anatomy, and testing methods: https://my.clevelandclinic.org/health/body/21823-eyes
