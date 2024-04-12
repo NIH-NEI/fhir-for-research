@@ -7,6 +7,9 @@ format: html
 - OCT:
     - https://www.youtube.com/watch?v=UyZXJ3WjKwI
         
+
+
+
     - https://www.aao.org/eye-health/treatments/what-is-optical-coherence-tomography
 
 
@@ -24,11 +27,11 @@ The synthetic retinal images used in this workshop are derived from two noninvas
 
 Fundus photography shows the retina, optic nerve head, macula, retinal blood vessels, choroid, and vitreous. It is a diagnostic tool for conditions like diabetic retinopathy, age-related macular degeneration, glaucoma, and retinopathy of prematurity. (Mishra, Tripathy)
 
-![Fundus Camera](fundus-camera.jpeg){fig-align="center"}{fig-alt="A fundus photography camera. (Mishra, Tripathy)"}
+![Fundus photography camera](images/eye-fundus-camera.jpeg){fig-align="center" fig-alt="A fundus photography camera. (Mishra, Tripathy)"}
 
 To capture an image of the retina, the back of the eye must be illuminated. Fundus photography uses a narrow beam of light through the pupil that reflects off the back of the eye to illuminate the retina. 
 
-![Fundus Photography](fundus-photography.jpeg){fig-align="center"}{fig-alt="Diagram of the illuminating and imaging light rays that allow fundus photography to capture the back of the eye. (Mishra, Tripathy)"}
+![Fundus photography uses a "donut" of light to direct light through the pupil, into the eye, and returning the imaging light rays to show the retina.](images/eye-fundus-photography.jpeg){fig-align="center" fig-alt="Diagram of the illuminating and imaging light rays that allow fundus photography to capture the back of the eye. (Mishra, Tripathy)"}
 
 For more on fundus photography:
 - https://www.opsweb.org/page/fundusphotography
@@ -36,6 +39,17 @@ For more on fundus photography:
 
 ### Optical Coherence Tomography
 OCT is a noninvasive imaging modality that takes cross-sectional photos of the retina and optic nerve. Since the photos shows each layer of the retina, an ophthalmologist can determine where the swelling or damage to the retina is, informing with the diagnosis. (https://www.aao.org/eye-health/treatments/what-is-optical-coherence-tomography)
+
+::: {#fig-OCT-Lasker-Foundation}
+
+{{< video https://www.youtube.com/watch?v=UyZXJ3WjKwI >}}
+
+The video "Optical Coherence Tomography: A new way of seeing"
+
+:::
+
+The creators of OCT recently received an award from the Albert and Mary Lasker Foundation for their innovative imaging technique. @fig-OCT-Lasker-Foundation explains how OCT works as well as its significance.
+
 
 OCT can help with the diagnosis and detection of these common opthalmic conditions (https://www.medicalnewstoday.com/articles/optical-coherence-tomography):
 - age-related Macular Degenerations
@@ -46,8 +60,14 @@ OCT can help with the diagnosis and detection of these common opthalmic conditio
 
 OCT is one of the primary imaging modalities used in ocular clinial care and research. OCT is considered to be, "one of the most important imaging modalities in clinical practice for the diagnosis and follow-up of patients with retinal disease, as well as a source for outcome measurements in clinical trials." (Muller et al.)
 
-< insert anatomy image showing retina >
-< insert example of OCT >
+::: {#fig-anatomy-OCT layout-ncol=2}
+
+![OCT captures an image of the retina, located at the back of the eye.](images/eye-profile-view.png){fig-align="center" fig-alt="Anatomical profile of the eye showing the retina (AAO Anatomy)"}
+
+![OCT shows the individual layers of the retina, which is an important diagnostic tool.](images/eye-retinal-layers.jpeg.png){fig-align="center" fig-alt="Anatomical profile of the eye showing the retina (AAO OCT)"}
+
+Eye anatomy and OCT image of individual retinal layers.
+:::
 
 Muller et al. offers the following characteristics of OCT that make it a popular tool for research and clinicare care include:
 
@@ -59,6 +79,10 @@ Muller et al. offers the following characteristics of OCT that make it a popular
 - It is detailed. OCT produces a 3-dimensional view of each retinal layer, picking up subtle changes that wouldn't be detected in other imaging formats.
 
 Since OCT is noninvase and quick, it's feasible to do routine imaging, allowing a researcher or clinician to have a longitudinal view of a patient's disease progression or therapeutic intervention over time. 
+
+For more on OCT:
+- Overview of OCT with examples of images: https://www.youtube.com/watch?v=BxRAAVr7oA8
+
 
 # Helpful Terminology
 

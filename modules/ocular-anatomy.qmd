@@ -4,7 +4,7 @@ format: html
 ---
 
 
-Understanding the anatomy of the eye helps to illustrate the interoperability challenges and imaging modalities used in ophthalmology. The American Academy of Ophthalmology (AAO) has an excellent review of eye anatomy: https://www.aao.org/eye-health/anatomy/parts-of-eye. This module summarizes the AAO content and ties the anatomy to the [imaging module](OCT.qmd).
+Understanding the anatomy of the eye helps to illustrate the interoperability challenges and imaging modalities used in ophthalmology. The American Academy of Ophthalmology (AAO) has an excellent review of eye anatomy: https://www.aao.org/eye-health/anatomy/parts-of-eye. This module summarizes the AAO content and ties the anatomy to the [imaging module](modules/ocular-imaging.qmd).
 
 
 # Exterior of the Eyeball
@@ -20,7 +20,7 @@ Understanding the anatomy of the eye helps to illustrate the interoperability ch
 <!--# consider cutting Surface of the eye section because I don't think this content has appeard in the imaging? -->
 
 <!--# image fro the AAO page on anatomy. Add separate citation? -->
-![Tears on the surface of the eye act as lubricant.](images/surface-of-the-eye.png "Surface of the eye"){fig-align="center" fig-alt="The tear layer on the front of the eye consists of three sub layers: oil, watery, and mucous."}
+![Tears on the surface of the eye act as lubricant.](images/eye-surface.png "Surface of the eye"){fig-align="center" fig-alt="The tear layer on the front of the eye consists of three sub layers: oil, watery, and mucous."}
 
 - **Tears**: lubricate the eye and are comprised of three layers called the tear film (from outermost to innermost):
     - Oil layer, produced by the meibomian gland
@@ -32,7 +32,7 @@ Understanding the anatomy of the eye helps to illustrate the interoperability ch
 <!--# image fro the AAO page on anatomy. Add separate citation? -->
 <!--# Is there another view that labels the pupil and lens as well? -->
 
-![The lens and the pupil each play a role in controlling the amount of light that reaches the back of the eye.](images/front-of-eye.jpeg "Front of the eye"){fig-align="center" fig-alt="A top-down view of an eyeball showing the layers of the dome-shaped cornea, iris, pupil, and lens."}
+![The lens and the pupil each play a role in controlling the amount of light that reaches the back of the eye.](images/eye-front-view.jpeg "Front of the eye"){fig-align="center" fig-alt="A top-down view of an eyeball showing the layers of the dome-shaped cornea, iris, pupil, and lens."}
 
 - **Cornea**: clear, dome-shaped front of the eye where light is focused into the eye
 - **Iris**: the colorful part of the eye, surrounding the pupil.
