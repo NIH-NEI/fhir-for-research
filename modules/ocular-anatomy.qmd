@@ -4,7 +4,7 @@ format: html
 ---
 
 
-Understanding the anatomy of the eye helps to illustrate the interoperability challenges and imaging modalities used in ophthalmology. The American Academy of Ophthalmology (AAO) has an excellent review of eye anatomy: https://www.aao.org/eye-health/anatomy/parts-of-eye. This module summarizes the AAO content and ties the anatomy to the [imaging module](modules/ocular-imaging.qmd).
+Understanding the anatomy of the eye helps to illustrate the interoperability challenges and imaging modalities used in ophthalmology. The American Academy of Ophthalmology (AAO) has an excellent review of eye anatomy: https://www.aao.org/eye-health/anatomy/parts-of-eye. This module summarizes the AAO content and ties the anatomy to the [imaging module](ocular-imaging.qmd).
 
 
 # Exterior of the Eyeball
