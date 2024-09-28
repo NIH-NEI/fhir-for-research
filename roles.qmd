@@ -13,4 +13,4 @@ sidebar: false
 
 -   **Clinician Scientist/Trainee** A role for practicing clinicians or clinician-trainees. This role is involved with research as a clinical subject matter expert or co-investigator, but is not be responsible for an entire study (or they would be in the "Investigator" role). Their role in research is focused on the clinical aspects related to their area of expertise, and could involve activities like chart review, creating a "phenotyping strategy" to identify a condition using EHR data, or designing a patient- or provider-facing intervention.
 
--   **Trainer** This role is responsible for leading future CTR-led trainings. People in this role are likely hands-on technical, or technical leaders. There may be overlap with the "Informaticist" and "Software Engineer" roles.
+-   **Trainer** This role is responsible for leading future researcher-led trainings. People in this role are likely hands-on technical, or technical leaders. There may be overlap with the "Informaticist" and "Software Engineer" roles.

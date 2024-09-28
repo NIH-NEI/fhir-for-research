@@ -7,11 +7,7 @@ The **Overview** provides an introduction to FHIR for research, and details on t
 
 Select your [role](/roles.html) to <mark>highlight</mark> the content that is most relevant to you:
 
-<a href="#" class="btn-role" data-role="investigator">Investigator</a>
-<a href="#" class="btn-role" data-role="research-leader">Research Leader</a>
-<a href="#" class="btn-role" data-role="informaticist">Informaticist</a>
-<a href="#" class="btn-role" data-role="software-engineer">Software Engineer</a>
-<a href="#" class="btn-role" data-role="clinician-scientist">Clinician Scientist/Trainee</a>
+<a href="#" class="btn-role" data-role="investigator">Investigator</a> <a href="#" class="btn-role" data-role="research-leader">Research Leader</a> <a href="#" class="btn-role" data-role="informaticist">Informaticist</a> <a href="#" class="btn-role" data-role="software-engineer">Software Engineer</a> <a href="#" class="btn-role" data-role="clinician-scientist">Clinician Scientist/Trainee</a>
 
 ## FHIR for Research
 
@@ -25,23 +21,39 @@ Select your [role](/roles.html) to <mark>highlight</mark> the content that is mo
 -   [Key FHIR Resources](/modules/key-fhir-resources.qmd)
 -   [Using the FHIR API to Access Data](/modules/fhir-accessing-data.qmd)
 -   [Genomics Data Standardization with FHIR](/modules/genomics.qmd)
+-   [Emerging Innovations](/modules/fhir-emerging-innovations.qmd)
 
 Many of these topics are covered in [an introductory webinar](/webinars/intro/index.qmd).
 
-## SMART on FHIR
+## FHIR API Technologies
 
--   *Recommended: complete highlighted "FHIR for Research" modules for your role first*
--   [High Level Overview](/modules/smart-on-fhir-intro.qmd)
--   [Technical Quick Start](/modules/smart-on-fhir-tech.qmd)
+*Recommended: complete highlighted "FHIR for Research" modules for your role first*
+
+### SMART on FHIR
+
+-   [Introduction](/modules/new-smart-on-fhir-intro.qmd)
+-   [Technical Details](/modules/new-smart-on-fhir-tech.qmd)
 -   [Workshop](/workshops/smart-on-fhir/index.qmd)
+
+### CDS Hooks
+
+-   [Introduction](/modules/new-cds-hooks-intro.qmd)
+-   [Types of CDS Hooks](/modules/new-cds-hooks-types.qmd)
+-   [Technical Example](/modules/new-cds-hooks-tech.qmd)
+
+### Other
+
+-   [Bulk Data Access](/modules/new-bulk-fhir.qmd)
 
 ## Data Modeling in FHIR
 
--   *Recommended: complete highlighted "FHIR for Research" modules for your role first*
+*Recommended: complete highlighted "FHIR for Research" modules for your role first*
+
 -   [Reading a FHIR specification](/modules/data-modeling-reading-igs.qmd)
 -   [Real world FHIR specifications](/modules/data-modeling-real-world-igs.qmd)
 -   [Writing a FHIR specification](/modules/data-modeling-writing-igs.qmd)
 
+```{=html}
 <script type="module">
 
 const all_modules = document.querySelectorAll("section>ul>li");
@@ -134,3 +146,4 @@ else {
 }
 
 </script>
+```

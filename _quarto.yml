@@ -20,8 +20,8 @@ website:
         file: sections/overview.qmd
       - text: Working With Data
         file: sections/working-with-data.qmd
-      - text: Advanced Topics
-        file: sections/advanced-topics.qmd
+      - text: Synthetic Data
+        file: sections/synthetic-data.qmd
 
 
     right:
@@ -38,7 +38,7 @@ website:
       style: floating
       search: false
       align: left
-      collapse-level: 2
+      collapse-level: 3
       contents:
         - sections/overview.qmd
         - section: "FHIR for Research"
@@ -58,12 +58,30 @@ website:
               text: Using the FHIR API
             - file: modules/genomics.qmd
               text: Genomics Data & FHIR
-        - section: "SMART on FHIR"
+            - file: modules/fhir-emerging-innovations.qmd
+              text: Emerging Innovations
+        - section: "FHIR API Development"
           contents:
-            - modules/smart-on-fhir-intro.qmd
-            - modules/smart-on-fhir-tech.qmd
-            - file: workshops/smart-on-fhir/index.qmd
-              text: Workshop
+            - file: modules/new-tech-overview.qmd
+              text: "FHIR API Technologies"
+            - section: "SMART on FHIR"
+              contents:
+                - file: modules/new-smart-on-fhir-intro.qmd
+                  text: "Introduction"
+                - file: modules/new-smart-on-fhir-tech.qmd
+                  text: "Technical Details"
+                - file: workshops/smart-on-fhir/index.qmd
+                  text: "Workshop"
+            - section: "CDS Hooks"
+              contents:
+                - file: modules/new-cds-hooks-intro.qmd
+                  text: "Introduction"
+                - file: modules/new-cds-hooks-types.qmd
+                  text: "Types of CDS Hooks"
+                - file: modules/new-cds-hooks-tech.qmd
+                  text: "Technical Example"
+            - file: modules/new-bulk-fhir.qmd
+              text: "Bulk Data Access"
         - section: "Data Modeling in FHIR"
           contents:
             - file: modules/data-modeling-reading-igs.qmd
@@ -103,15 +121,15 @@ website:
             - file: workshops/bulk-data/index.qmd
               text: Workshop
 
-    - id: advanced-topics
-      title: Advanced Topics
+    - id: synthetic-data
+      title: Synthetic Data
       style: floating
       search: false
       align: left
       collapse-level: 2
       contents:
-        - file: sections/advanced-topics.qmd
-          text: Advanced Topics
+        - file: sections/synthetic-data.qmd
+          text: Synthetic Data
         - section: "Synthetic Data"
           contents:
             - file: modules/synthea-overview.qmd
@@ -122,12 +140,9 @@ website:
               text: Customizing Synthea
             - file: modules/synthea-test-server.qmd
               text: FHIR Test Server
-        - fhir-versions.qmd
-        - style-guide.qmd
-
 
   page-footer: |
-    &copy; 2023 The MITRE Corporation / <a href="https://github.com/mitre/fhir-for-research/README.md">License information</a><br>Approved for Public Release / Case #23-0966<br><br>HL7® and FHIR® are the registered trademarks of <a href="https://hl7.org">Health Level Seven International (HL7)</a>.<br>Use of the HL7 and FHIR trademarks does not constitute an HL7 endorsement of this website.
+    &copy; 2024 The MITRE Corporation / <a href="https://github.com/mitre/fhir-for-research/README.md">License information</a><br>Approved for Public Release / Case #23-0966 &amp; #24-0169<br><br>HL7® and FHIR® are the registered trademarks of <a href="https://hl7.org">Health Level Seven International (HL7)</a>.<br>Use of the HL7 and FHIR trademarks does not constitute an HL7 endorsement of this website.
 
   page-navigation: true
 

@@ -44,9 +44,9 @@ Approaches to gathering and analyzing FHIR-formatted data for research purposes.
 :::
 
 ::: {.feature}
-### Advanced Topics
+### Synthetic Data
 
-Resources for technical leaders who are conducting their own trainings, or researchers who are interested in a deeper dive.
+Synthetic health data including FHIR-format data and images.
 
 ::: {.learn-more}
 [Learn more »](sections/advanced-topics.qmd)
@@ -55,3 +55,9 @@ Resources for technical leaders who are conducting their own trainings, or resea
 
 :::
 :::
+
+### Other topics
+
+-   [Recommendations for Conducting Workshops](/webinars/workshop-recommendations/index.qmd)
+-   [FHIR Versions](/fhir-versions.qmd)
+-   [Style Guide](/style-guide.qmd)

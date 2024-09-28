@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   push:
-    branches: main
+    branches: '*'
 
 name: Quarto Publish
 
@@ -11,19 +11,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Check out repository
@@ -80,14 +70,49 @@ jobs:
         run: |
           cp modules/images/*.mp4 public/modules/images/
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
+      # Deploy the output
+      - name: Push build to gh-pages (default branch)
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: |
+          # Deploy
+          git config --global user.email "noreply@mitre.org"
+          git config --global user.name "Auto-build"
+          git worktree add $GITHUB_WORKSPACE/../gh-pages
+          cd $GITHUB_WORKSPACE/../gh-pages
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: 'public'
+          # Refresh in case another build has happened while this was running
+          # This mitigates a race condition with multiple simultaneous builds
+          git fetch origin
+          git reset --hard origin/gh-pages
 
-      - name: Deploy Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+          mkdir -p branches
+          mv branches ..
+          rm -rf *
+          mv ../branches .
+          cp -r $GITHUB_WORKSPACE/public/* .
+          rm -rf .github/workflows
+          git add -A
+          git commit --amend -m "Update site"
+          GIT_SSH_COMMAND='ssh -i ' git push -u --force origin gh-pages
+
+      - name: Push build to gh-pages (non-default branches)
+        if: ${{ github.ref != 'refs/heads/main' }}
+        run: |
+          # Deploy
+          git config --global user.email "noreply@mitre.org"
+          git config --global user.name "Auto-build"
+          git worktree add $GITHUB_WORKSPACE/../gh-pages
+          cd $GITHUB_WORKSPACE/../gh-pages
+
+          # Refresh in case another build has happened while this was running
+          # This mitigates a race condition with multiple simultaneous builds
+          git fetch origin
+          git reset --hard origin/gh-pages
+
+          mkdir -p branches/${GITHUB_REF##*/}
+          rm -rf branches/${GITHUB_REF##*/}/*
+          cp -r $GITHUB_WORKSPACE/public/* branches/${GITHUB_REF##*/}/
+          rm -rf .github/workflows
+          git add -A
+          git commit --amend -m "Update site"
+          GIT_SSH_COMMAND='ssh -i ' git push -u --force origin gh-pages

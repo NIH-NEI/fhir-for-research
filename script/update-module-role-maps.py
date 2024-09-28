@@ -20,15 +20,15 @@ role_mapping = {
 role_module_map = []
 
 # Load data from _quarto.yml sidebar
-#sidebar = None;
-#with open(os.path.join(path, '..', '_quarto.yml'), 'r') as f:
+# sidebar = None;
+# with open(os.path.join(path, '..', '_quarto.yml'), 'r') as f:
 #    quarto_data = yaml.safe_load(f.read().strip());
 #    sidebar = quarto_data['website']['sidebar']
 
-#print(str(quarto_data['website']['sidebar'][0]))
+# print(str(quarto_data['website']['sidebar'][0]))
 
 # Extract data
-#for item in sidebar:
+# for item in sidebar:
 #    if isinstance(item, str): # direct link item
 #        pass # save order, extract title from frontmatter
 #    elif isinstance(item, dict) and item.has_key?('text'):
@@ -52,7 +52,18 @@ a = [item for sublist in a for item in sublist] # Flatten - https://stackoverflo
 b = [x['contents'] for x in a if type(x) is dict and 'contents' in x]
 b = [item for sublist in b for item in sublist] # Flatten - https://stackoverflow.com/questions/952914/
 c = [x if type(x) is dict else {'file': x} for x in b]
-ordering = {x['file'].replace('modules/', '').replace('.qmd', ''): x for x in c}
+
+# Sub-sub levels need to be replaced and collapsed.
+d = [x['contents'] if type(x) is dict and 'contents' in x else x for x in c]
+# Flatten
+e = []
+for item in d:
+    if isinstance(item, list):
+        e.extend(item)
+    else:
+        e.append(item)
+
+ordering = {x['file'].replace('modules/', '').replace('.qmd', ''): x for x in e}
 
 for pos, k in enumerate(ordering.keys()):
     ordering[k]['position'] = pos
@@ -60,6 +71,9 @@ for pos, k in enumerate(ordering.keys()):
 
 # Loop through each Markdown file in the path
 for filename in glob.glob(os.path.join(path, "*.qmd")):
+    module_slug = os.path.splitext(os.path.basename(filename))[0]
+    if module_slug not in ordering:
+        continue
     with open(filename, "r") as f:
         # Read the file content
         content = f.read()
@@ -79,7 +93,6 @@ for filename in glob.glob(os.path.join(path, "*.qmd")):
                     existing_role = next(
                         (r for r in role_module_map if r["role"] == role_slug),
                         None)
-                    module_slug = os.path.splitext(os.path.basename(filename))[0]
                     text = ordering[module_slug].get('text', frontmatter['title'])
                     if text == "Introduction":
                         text = frontmatter['title']
